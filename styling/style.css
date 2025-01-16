@@ -44,6 +44,12 @@ nav li:hover {
     color: var(--moorkeblaa);
 }
 
+nav li.active {
+    background-color: var(--hvit);
+    color: var(--moorkeblaa);
+    
+}
+
 resourceNav:hover{
     background-color: var(--hvit);
 }

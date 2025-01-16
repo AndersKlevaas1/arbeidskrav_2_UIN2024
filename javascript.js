@@ -31,13 +31,13 @@ function showResourceContent(resource) {
     ).join('');
 
     resourceContent.innerHTML = `
-        <div class="resource-container">
+        <section class="resource-container">
             <h2>${resource.category}</h2>
             <p>${resource.text}</p>
             <ul class="sources-list">
                 ${sourcesListItems}
             </ul>
-        </div>
+        </section>
     `;
 }
 populateNav()
